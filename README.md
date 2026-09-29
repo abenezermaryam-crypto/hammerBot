@@ -40,7 +40,4 @@ In **Phase 2**, we have:
    npm run dev
    ```
 
-## Next Milestones for Phase 2:
-- Connect SQLite / PostgreSQL / MongoDB for products & categories.
-- Interactive catalog pagination with Add-to-Cart buttons.
-- Cart checkout flow & order confirmation.
+
