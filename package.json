@@ -1,0 +1,19 @@
+{
+  "name": "minimarket-telegram-bot-phase2",
+  "version": "0.2.0",
+  "description": "Minimarket e-commerce and delivery Telegram bot - Phase 2",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

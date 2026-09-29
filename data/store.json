@@ -1,0 +1,1352 @@
+{
+  "categories": [
+    {
+      "id": "produce",
+      "name": "Fresh Fruits & Vegetables",
+      "icon": "🍎",
+      "description": "Farm-fresh organic fruits and vegetables delivered daily"
+    },
+    {
+      "id": "dairy_bakery",
+      "name": "Dairy, Eggs & Bakery",
+      "icon": "🥛",
+      "description": "Fresh milk, yogurt, eggs, local bread, and injera"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages & Soft Drinks",
+      "icon": "🥤",
+      "description": "Bottled water, sodas, juices, coffee, and tea"
+    },
+    {
+      "id": "pantry",
+      "name": "Pantry & Canned Goods",
+      "icon": "🥫",
+      "description": "Cooking oil, rice, pasta, flour, spices, and sauces"
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks & Confectionery",
+      "icon": "🍫",
+      "description": "Biscuits, chips, chocolates, and sweets"
+    },
+    {
+      "id": "household",
+      "name": "Cleaning & Household",
+      "icon": "🧼",
+      "description": "Detergents, soaps, paper towels, and home care items"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_banana",
+      "categoryId": "produce",
+      "name": "Fresh Bananas",
+      "price": 120,
+      "unit": "1 kg",
+      "description": "Sweet, locally grown ripe bananas.",
+      "inStock": true
+    },
+    {
+      "id": "prod_tomato",
+      "categoryId": "produce",
+      "name": "Red Tomatoes",
+      "price": 90,
+      "unit": "1 kg",
+      "description": "Juicy salad and cooking tomatoes.",
+      "inStock": true
+    },
+    {
+      "id": "prod_onion",
+      "categoryId": "produce",
+      "name": "Red Onions",
+      "price": 130,
+      "unit": "1 kg",
+      "description": "Essential cooking red onions.",
+      "inStock": true
+    },
+    {
+      "id": "prod_potato",
+      "categoryId": "produce",
+      "name": "Local Potatoes",
+      "price": 80,
+      "unit": "1 kg",
+      "description": "Fresh highland potatoes.",
+      "inStock": true
+    },
+    {
+      "id": "prod_orange",
+      "categoryId": "produce",
+      "name": "Valencia Oranges",
+      "price": 160,
+      "unit": "1 kg",
+      "description": "Fresh citrus oranges rich in Vitamin C.",
+      "inStock": true
+    },
+    {
+      "id": "prod_milk_1l",
+      "categoryId": "dairy_bakery",
+      "name": "Pasteurized Whole Milk",
+      "price": 110,
+      "unit": "1 Liter",
+      "description": "Fresh whole pasteurized milk.",
+      "inStock": true
+    },
+    {
+      "id": "prod_eggs_12",
+      "categoryId": "dairy_bakery",
+      "name": "Fresh Farm Eggs",
+      "price": 240,
+      "unit": "12 pcs (Dozen)",
+      "description": "Grade A fresh farm eggs.",
+      "inStock": true
+    },
+    {
+      "id": "prod_injera",
+      "categoryId": "dairy_bakery",
+      "name": "Fresh Teff Injera",
+      "price": 150,
+      "unit": "5 pcs pack",
+      "description": "100% pure teff freshly baked injera.",
+      "inStock": true
+    },
+    {
+      "id": "prod_bread_toast",
+      "categoryId": "dairy_bakery",
+      "name": "Sliced Toast Bread",
+      "price": 85,
+      "unit": "1 loaf (500g)",
+      "description": "Soft white sliced sandwich bread.",
+      "inStock": true
+    },
+    {
+      "id": "prod_butter",
+      "categoryId": "dairy_bakery",
+      "name": "Table Butter",
+      "price": 280,
+      "unit": "250g pack",
+      "description": "Creamy unsalted table butter.",
+      "inStock": true
+    },
+    {
+      "id": "prod_water_2l",
+      "categoryId": "beverages",
+      "name": "Natural Mineral Water",
+      "price": 45,
+      "unit": "2 Liters",
+      "description": "Pure refreshing spring water.",
+      "inStock": true
+    },
+    {
+      "id": "prod_coca_cola",
+      "categoryId": "beverages",
+      "name": "Coca Cola Plastic Bottle",
+      "price": 50,
+      "unit": "500 ml",
+      "description": "Classic chilled Coca Cola.",
+      "inStock": true
+    },
+    {
+      "id": "prod_juice_mango",
+      "categoryId": "beverages",
+      "name": "Mango Nectar Juice",
+      "price": 95,
+      "unit": "1 Liter",
+      "description": "Rich tropical mango juice drink.",
+      "inStock": true
+    },
+    {
+      "id": "prod_coffee_beans",
+      "categoryId": "beverages",
+      "name": "Yirgacheffe Roast Coffee",
+      "price": 480,
+      "unit": "500g pack",
+      "description": "Premium roasted Ethiopian highland coffee.",
+      "inStock": true
+    },
+    {
+      "id": "prod_oil_1l",
+      "categoryId": "pantry",
+      "name": "Sunflower Cooking Oil",
+      "price": 420,
+      "unit": "1 Liter",
+      "description": "Refined pure sunflower oil for healthy cooking.",
+      "inStock": true
+    },
+    {
+      "id": "prod_pasta",
+      "categoryId": "pantry",
+      "name": "Spaghetti Pasta",
+      "price": 75,
+      "unit": "500g pack",
+      "description": "Quality durum wheat semolina spaghetti.",
+      "inStock": true
+    },
+    {
+      "id": "prod_rice_basmati",
+      "categoryId": "pantry",
+      "name": "Premium Basmati Rice",
+      "price": 260,
+      "unit": "1 kg",
+      "description": "Long grain aromatic basmati rice.",
+      "inStock": false
+    },
+    {
+      "id": "prod_chips_potato",
+      "categoryId": "snacks",
+      "name": "Crispy Potato Chips",
+      "price": 65,
+      "unit": "100g bag",
+      "description": "Lightly salted golden potato crisps.",
+      "inStock": true
+    },
+    {
+      "id": "prod_chocolate_bar",
+      "categoryId": "snacks",
+      "name": "Milk Chocolate Bar",
+      "price": 90,
+      "unit": "80g bar",
+      "description": "Smooth and creamy milk chocolate.",
+      "inStock": true
+    },
+    {
+      "id": "prod_biscuits",
+      "categoryId": "snacks",
+      "name": "Digestive Biscuits",
+      "price": 80,
+      "unit": "200g pack",
+      "description": "Crisp whole-wheat digestive biscuits.",
+      "inStock": true
+    },
+    {
+      "id": "prod_dish_soap",
+      "categoryId": "household",
+      "name": "Lemon Dishwashing Liquid",
+      "price": 180,
+      "unit": "750 ml",
+      "description": "Tough on grease, gentle on hands.",
+      "inStock": true
+    },
+    {
+      "id": "prod_laundry_detergent",
+      "categoryId": "household",
+      "name": "Washing Powder Detergent",
+      "price": 320,
+      "unit": "1 kg bag",
+      "description": "Powerful stain removal with fresh scent.",
+      "inStock": true
+    },
+    {
+      "id": "prod_toilet_paper",
+      "categoryId": "household",
+      "name": "Soft Toilet Rolls",
+      "price": 190,
+      "unit": "4 rolls pack",
+      "description": "2-ply soft and absorbent bathroom rolls.",
+      "inStock": true
+    }
+  ],
+  "carts": {
+    "823381530": {
+      "prod_orange": 2
+    },
+    "6912151695": {},
+    "8011765639": {},
+    "7764454334": {},
+    "6115476457": {},
+    "7914732246": {
+      "prod_oil_1l": 1
+    }
+  },
+  "favorites": {
+    "6912151695": [
+      "prod_chocolate_bar",
+      "prod_onion"
+    ],
+    "7764454334": [
+      "prod_juice_mango"
+    ],
+    "8011765639": [
+      "prod_banana"
+    ]
+  },
+  "orders": [
+    {
+      "id": "MM-1018",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "098765432",
+      "deliveryAddress": "yechale",
+      "items": [
+        {
+          "product": {
+            "id": "prod_rice_basmati",
+            "categoryId": "pantry",
+            "name": "Premium Basmati Rice",
+            "price": 260,
+            "unit": "1 kg",
+            "description": "Long grain aromatic basmati rice.",
+            "inStock": false
+          },
+          "quantity": 1,
+          "itemTotal": 260
+        },
+        {
+          "product": {
+            "id": "prod_pasta",
+            "categoryId": "pantry",
+            "name": "Spaghetti Pasta",
+            "price": 75,
+            "unit": "500g pack",
+            "description": "Quality durum wheat semolina spaghetti.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 75
+        },
+        {
+          "product": {
+            "id": "prod_oil_1l",
+            "categoryId": "pantry",
+            "name": "Sunflower Cooking Oil",
+            "price": 420,
+            "unit": "1 Liter",
+            "description": "Refined pure sunflower oil for healthy cooking.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 420
+        },
+        {
+          "product": {
+            "id": "prod_juice_mango",
+            "categoryId": "beverages",
+            "name": "Mango Nectar Juice",
+            "price": 95,
+            "unit": "1 Liter",
+            "description": "Rich tropical mango juice drink.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 95
+        },
+        {
+          "product": {
+            "id": "prod_water_2l",
+            "categoryId": "beverages",
+            "name": "Natural Mineral Water",
+            "price": 45,
+            "unit": "2 Liters",
+            "description": "Pure refreshing spring water.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 45
+        }
+      ],
+      "subtotal": 895,
+      "deliveryFee": 50,
+      "discount": 0,
+      "promoCode": null,
+      "total": 945,
+      "paymentMethod": "Telebirr",
+      "status": "awaiting_payment",
+      "paymentReference": "MM-MM-1018-1790671582251",
+      "paymentProviderStatus": "PENDING",
+      "createdAt": "2026-09-29T08:46:22.245Z",
+      "updatedAt": "2026-09-29T08:46:22.253Z"
+    },
+    {
+      "id": "MM-1017",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "0098776",
+      "deliveryAddress": "Ijhb",
+      "items": [
+        {
+          "product": {
+            "id": "prod_pasta",
+            "categoryId": "pantry",
+            "name": "Spaghetti Pasta",
+            "price": 75,
+            "unit": "500g pack",
+            "description": "Quality durum wheat semolina spaghetti.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 75
+        }
+      ],
+      "subtotal": 75,
+      "deliveryFee": 50,
+      "discount": 0,
+      "promoCode": null,
+      "total": 125,
+      "paymentMethod": "Telebirr",
+      "status": "confirmed",
+      "paymentReference": "MM-MM-1017-1790669775019",
+      "paymentProviderStatus": "PENDING",
+      "createdAt": "2026-09-29T08:16:15.012Z",
+      "updatedAt": "2026-09-29T08:16:29.596Z"
+    },
+    {
+      "id": "MM-1016",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "Jjjk",
+      "deliveryAddress": "📍 GPS Pin: https://maps.google.com/?q=7.026486,38.466539",
+      "items": [
+        {
+          "product": {
+            "id": "prod_chocolate_bar",
+            "categoryId": "snacks",
+            "name": "Milk Chocolate Bar",
+            "price": 90,
+            "unit": "80g bar",
+            "description": "Smooth and creamy milk chocolate.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 90
+        },
+        {
+          "product": {
+            "id": "prod_chips_potato",
+            "categoryId": "snacks",
+            "name": "Crispy Potato Chips",
+            "price": 65,
+            "unit": "100g bag",
+            "description": "Lightly salted golden potato crisps.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 65
+        },
+        {
+          "product": {
+            "id": "prod_oil_1l",
+            "categoryId": "pantry",
+            "name": "Sunflower Cooking Oil",
+            "price": 420,
+            "unit": "1 Liter",
+            "description": "Refined pure sunflower oil for healthy cooking.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 420
+        },
+        {
+          "product": {
+            "id": "prod_pasta",
+            "categoryId": "pantry",
+            "name": "Spaghetti Pasta",
+            "price": 75,
+            "unit": "500g pack",
+            "description": "Quality durum wheat semolina spaghetti.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 75
+        }
+      ],
+      "subtotal": 650,
+      "deliveryFee": 50,
+      "discount": 0,
+      "promoCode": null,
+      "total": 700,
+      "paymentMethod": "Telebirr",
+      "status": "cancelled",
+      "paymentReference": "MM-MM-1016-1790669707878",
+      "paymentProviderStatus": "PENDING",
+      "createdAt": "2026-09-29T08:15:07.873Z",
+      "updatedAt": "2026-09-29T08:15:17.580Z"
+    },
+    {
+      "id": "MM-1015",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "Yyh",
+      "deliveryAddress": "Hhj",
+      "items": [
+        {
+          "product": {
+            "id": "prod_rice_basmati",
+            "categoryId": "pantry",
+            "name": "Premium Basmati Rice",
+            "price": 260,
+            "unit": "1 kg",
+            "description": "Long grain aromatic basmati rice.",
+            "inStock": false
+          },
+          "quantity": 1,
+          "itemTotal": 260
+        }
+      ],
+      "subtotal": 260,
+      "deliveryFee": 50,
+      "discount": 50,
+      "promoCode": "WELCOME",
+      "total": 260,
+      "paymentMethod": "Telebirr",
+      "status": "awaiting_payment",
+      "createdAt": "2026-09-29T07:06:43.299Z",
+      "updatedAt": "2026-09-29T07:06:43.315Z"
+    },
+    {
+      "id": "MM-1014",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "2097336633",
+      "deliveryAddress": "Dorm",
+      "items": [
+        {
+          "product": {
+            "id": "prod_banana",
+            "categoryId": "produce",
+            "name": "Fresh Bananas",
+            "price": 120,
+            "unit": "1 kg",
+            "description": "Sweet, locally grown ripe bananas.",
+            "inStock": true
+          },
+          "quantity": 6,
+          "itemTotal": 720
+        },
+        {
+          "product": {
+            "id": "prod_toilet_paper",
+            "categoryId": "household",
+            "name": "Soft Toilet Rolls",
+            "price": 190,
+            "unit": "4 rolls pack",
+            "description": "2-ply soft and absorbent bathroom rolls.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 190
+        },
+        {
+          "product": {
+            "id": "prod_biscuits",
+            "categoryId": "snacks",
+            "name": "Digestive Biscuits",
+            "price": 80,
+            "unit": "200g pack",
+            "description": "Crisp whole-wheat digestive biscuits.",
+            "inStock": true
+          },
+          "quantity": 2,
+          "itemTotal": 160
+        },
+        {
+          "product": {
+            "id": "prod_butter",
+            "categoryId": "dairy_bakery",
+            "name": "Table Butter",
+            "price": 280,
+            "unit": "250g pack",
+            "description": "Creamy unsalted table butter.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 280
+        },
+        {
+          "product": {
+            "id": "prod_eggs_12",
+            "categoryId": "dairy_bakery",
+            "name": "Fresh Farm Eggs",
+            "price": 240,
+            "unit": "12 pcs (Dozen)",
+            "description": "Grade A fresh farm eggs.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 240
+        }
+      ],
+      "subtotal": 1590,
+      "deliveryFee": 50,
+      "discount": 0,
+      "promoCode": null,
+      "total": 1640,
+      "paymentMethod": "Telebirr",
+      "status": "out_for_delivery",
+      "createdAt": "2026-09-29T06:53:20.474Z",
+      "updatedAt": "2026-09-29T06:53:38.268Z"
+    },
+    {
+      "id": "MM-1013",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "08765432",
+      "deliveryAddress": "PROMO CODE",
+      "items": [
+        {
+          "product": {
+            "id": "prod_coca_cola",
+            "categoryId": "beverages",
+            "name": "Coca Cola Plastic Bottle",
+            "price": 50,
+            "unit": "500 ml",
+            "description": "Classic chilled Coca Cola.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 50
+        },
+        {
+          "product": {
+            "id": "prod_laundry_detergent",
+            "categoryId": "household",
+            "name": "Washing Powder Detergent",
+            "price": 320,
+            "unit": "1 kg bag",
+            "description": "Powerful stain removal with fresh scent.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 320
+        }
+      ],
+      "subtotal": 370,
+      "deliveryFee": 50,
+      "discount": 50,
+      "promoCode": "HAMMER50",
+      "total": 370,
+      "paymentMethod": "Telebirr",
+      "status": "confirmed",
+      "createdAt": "2026-09-28T19:43:45.986Z",
+      "updatedAt": "2026-09-28T19:44:31.237Z"
+    },
+    {
+      "id": "MM-1012",
+      "userId": 6115476457,
+      "customerName": "Abyssinia",
+      "phone": "0961606976",
+      "deliveryAddress": "Gbi",
+      "items": [
+        {
+          "product": {
+            "id": "prod_chips_potato",
+            "categoryId": "snacks",
+            "name": "Crispy Potato Chips",
+            "price": 65,
+            "unit": "100g bag",
+            "description": "Lightly salted golden potato crisps.",
+            "inStock": true
+          },
+          "quantity": 4,
+          "itemTotal": 260
+        },
+        {
+          "product": {
+            "id": "prod_milk_1l",
+            "categoryId": "dairy_bakery",
+            "name": "Pasteurized Whole Milk",
+            "price": 110,
+            "unit": "1 Liter",
+            "description": "Fresh whole pasteurized milk.",
+            "inStock": true
+          },
+          "quantity": 5,
+          "itemTotal": 550
+        },
+        {
+          "product": {
+            "id": "prod_banana",
+            "categoryId": "produce",
+            "name": "Fresh Bananas",
+            "price": 120,
+            "unit": "1 kg",
+            "description": "Sweet, locally grown ripe bananas.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 120
+        },
+        {
+          "product": {
+            "id": "prod_tomato",
+            "categoryId": "produce",
+            "name": "Red Tomatoes",
+            "price": 90,
+            "unit": "1 kg",
+            "description": "Juicy salad and cooking tomatoes.",
+            "inStock": true
+          },
+          "quantity": 3,
+          "itemTotal": 270
+        }
+      ],
+      "subtotal": 1200,
+      "deliveryFee": 50,
+      "total": 1250,
+      "paymentMethod": "CBE Birr / Bank Transfer",
+      "status": "awaiting_payment",
+      "createdAt": "2026-09-28T19:05:53.787Z",
+      "updatedAt": "2026-09-28T19:05:53.797Z"
+    },
+    {
+      "id": "MM-1011",
+      "userId": 6115476457,
+      "customerName": "Abyssinia",
+      "phone": "251961606976",
+      "deliveryAddress": "📍 GPS Pin: https://maps.google.com/?q=7.026864,38.469387",
+      "items": [
+        {
+          "product": {
+            "id": "prod_banana",
+            "categoryId": "produce",
+            "name": "Fresh Bananas",
+            "price": 120,
+            "unit": "1 kg",
+            "description": "Sweet, locally grown ripe bananas.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 120
+        },
+        {
+          "product": {
+            "id": "prod_tomato",
+            "categoryId": "produce",
+            "name": "Red Tomatoes",
+            "price": 90,
+            "unit": "1 kg",
+            "description": "Juicy salad and cooking tomatoes.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 90
+        },
+        {
+          "product": {
+            "id": "prod_potato",
+            "categoryId": "produce",
+            "name": "Local Potatoes",
+            "price": 80,
+            "unit": "1 kg",
+            "description": "Fresh highland potatoes.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 80
+        },
+        {
+          "product": {
+            "id": "prod_orange",
+            "categoryId": "produce",
+            "name": "Valencia Oranges",
+            "price": 160,
+            "unit": "1 kg",
+            "description": "Fresh citrus oranges rich in Vitamin C.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 160
+        }
+      ],
+      "subtotal": 450,
+      "deliveryFee": 50,
+      "total": 500,
+      "paymentMethod": "Telebirr",
+      "status": "delivered",
+      "createdAt": "2026-09-28T18:38:37.053Z",
+      "updatedAt": "2026-09-28T18:39:36.088Z"
+    },
+    {
+      "id": "MM-1010",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "098765432",
+      "deliveryAddress": "yechale mulu",
+      "items": [
+        {
+          "product": {
+            "id": "prod_1790619398541",
+            "categoryId": "beverages",
+            "name": "sprite",
+            "price": 35,
+            "unit": "1 glass bottel",
+            "description": "Fresh quality item available at Hammer Shop.",
+            "inStock": true,
+            "createdAt": "2026-09-28T18:16:38.541Z"
+          },
+          "quantity": 1,
+          "itemTotal": 35
+        }
+      ],
+      "subtotal": 35,
+      "deliveryFee": 50,
+      "total": 85,
+      "paymentMethod": "Telebirr",
+      "status": "cancelled",
+      "createdAt": "2026-09-28T18:25:51.974Z",
+      "updatedAt": "2026-09-28T18:27:12.824Z"
+    },
+    {
+      "id": "MM-1009",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "098765432",
+      "deliveryAddress": "ye j",
+      "items": [
+        {
+          "product": {
+            "id": "prod_1790619398541",
+            "categoryId": "beverages",
+            "name": "sprite",
+            "price": 35,
+            "unit": "1 glass bottel",
+            "description": "Fresh quality item available at Hammer Shop.",
+            "inStock": true,
+            "createdAt": "2026-09-28T18:16:38.541Z"
+          },
+          "quantity": 1,
+          "itemTotal": 35
+        }
+      ],
+      "subtotal": 35,
+      "deliveryFee": 50,
+      "total": 85,
+      "paymentMethod": "CBE Birr / Bank Transfer",
+      "status": "confirmed",
+      "createdAt": "2026-09-28T18:21:37.801Z",
+      "updatedAt": "2026-09-28T18:23:05.652Z"
+    },
+    {
+      "id": "MM-1008",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "098765432",
+      "deliveryAddress": "atsede",
+      "items": [
+        {
+          "product": {
+            "id": "prod_orange",
+            "categoryId": "produce",
+            "name": "Valencia Oranges",
+            "price": 160,
+            "unit": "1 kg",
+            "description": "Fresh citrus oranges rich in Vitamin C.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 160
+        },
+        {
+          "product": {
+            "id": "prod_potato",
+            "categoryId": "produce",
+            "name": "Local Potatoes",
+            "price": 80,
+            "unit": "1 kg",
+            "description": "Fresh highland potatoes.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 80
+        }
+      ],
+      "subtotal": 240,
+      "deliveryFee": 50,
+      "total": 290,
+      "paymentMethod": "Telebirr",
+      "status": "payment_rejected",
+      "createdAt": "2026-09-28T18:19:43.521Z",
+      "updatedAt": "2026-09-28T18:20:51.901Z"
+    },
+    {
+      "id": "MM-1007",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "+251799459263",
+      "deliveryAddress": "yecha",
+      "items": [
+        {
+          "product": {
+            "id": "prod_biscuits",
+            "categoryId": "snacks",
+            "name": "Digestive Biscuits",
+            "price": 80,
+            "unit": "200g pack",
+            "description": "Crisp whole-wheat digestive biscuits.",
+            "inStock": true
+          },
+          "quantity": 2,
+          "itemTotal": 160
+        },
+        {
+          "product": {
+            "id": "prod_chocolate_bar",
+            "categoryId": "snacks",
+            "name": "Milk Chocolate Bar",
+            "price": 90,
+            "unit": "80g bar",
+            "description": "Smooth and creamy milk chocolate.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 90
+        },
+        {
+          "product": {
+            "id": "prod_banana",
+            "categoryId": "produce",
+            "name": "Fresh Bananas",
+            "price": 120,
+            "unit": "1 kg",
+            "description": "Sweet, locally grown ripe bananas.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 120
+        },
+        {
+          "product": {
+            "id": "prod_tomato",
+            "categoryId": "produce",
+            "name": "Red Tomatoes",
+            "price": 90,
+            "unit": "1 kg",
+            "description": "Juicy salad and cooking tomatoes.",
+            "inStock": true
+          },
+          "quantity": 2,
+          "itemTotal": 180
+        },
+        {
+          "product": {
+            "id": "prod_toilet_paper",
+            "categoryId": "household",
+            "name": "Soft Toilet Rolls",
+            "price": 190,
+            "unit": "4 rolls pack",
+            "description": "2-ply soft and absorbent bathroom rolls.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 190
+        },
+        {
+          "product": {
+            "id": "prod_dish_soap",
+            "categoryId": "household",
+            "name": "Lemon Dishwashing Liquid",
+            "price": 180,
+            "unit": "750 ml",
+            "description": "Tough on grease, gentle on hands.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 180
+        }
+      ],
+      "subtotal": 920,
+      "deliveryFee": 50,
+      "total": 970,
+      "paymentMethod": "Cash on Delivery",
+      "status": "confirmed",
+      "createdAt": "2026-09-28T18:12:23.344Z",
+      "updatedAt": "2026-09-28T18:13:34.626Z"
+    },
+    {
+      "id": "MM-1006",
+      "userId": 7764454334,
+      "customerName": "abate",
+      "phone": "251953364731",
+      "deliveryAddress": "Dorn 59",
+      "items": [
+        {
+          "product": {
+            "id": "prod_juice_mango",
+            "categoryId": "beverages",
+            "name": "Mango Nectar Juice",
+            "price": 95,
+            "unit": "1 Liter",
+            "description": "Rich tropical mango juice drink.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 95
+        },
+        {
+          "product": {
+            "id": "prod_oil_1l",
+            "categoryId": "pantry",
+            "name": "Sunflower Cooking Oil",
+            "price": 420,
+            "unit": "1 Liter",
+            "description": "Refined pure sunflower oil for healthy cooking.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 420
+        },
+        {
+          "product": {
+            "id": "prod_sugar",
+            "categoryId": "pantry",
+            "name": "White Cane Sugar",
+            "price": 140,
+            "unit": "1 kg",
+            "description": "Pure granulated cane sugar.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 140
+        }
+      ],
+      "subtotal": 655,
+      "deliveryFee": 50,
+      "total": 705,
+      "paymentMethod": "Telebirr",
+      "status": "cancelled",
+      "createdAt": "2026-09-28T17:35:53.021Z",
+      "updatedAt": "2026-09-28T18:02:55.075Z"
+    },
+    {
+      "id": "MM-1005",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "00922828838",
+      "deliveryAddress": "Dorm  34",
+      "items": [
+        {
+          "product": {
+            "id": "prod_chips_potato",
+            "categoryId": "snacks",
+            "name": "Crispy Potato Chips",
+            "price": 65,
+            "unit": "100g bag",
+            "description": "Lightly salted golden potato crisps.",
+            "inStock": true
+          },
+          "quantity": 2,
+          "itemTotal": 130
+        },
+        {
+          "product": {
+            "id": "prod_biscuits",
+            "categoryId": "snacks",
+            "name": "Digestive Biscuits",
+            "price": 80,
+            "unit": "200g pack",
+            "description": "Crisp whole-wheat digestive biscuits.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 80
+        }
+      ],
+      "subtotal": 210,
+      "deliveryFee": 50,
+      "total": 260,
+      "paymentMethod": "Telebirr",
+      "status": "payment_rejected",
+      "createdAt": "2026-09-28T14:58:08.574Z",
+      "updatedAt": "2026-09-28T14:58:54.293Z"
+    },
+    {
+      "id": "MM-1004",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "0960675516",
+      "deliveryAddress": "Dorm no 23",
+      "items": [
+        {
+          "product": {
+            "id": "prod_banana",
+            "categoryId": "produce",
+            "name": "Fresh Bananas",
+            "price": 120,
+            "unit": "1 kg",
+            "description": "Sweet, locally grown ripe bananas.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 120
+        },
+        {
+          "product": {
+            "id": "prod_tomato",
+            "categoryId": "produce",
+            "name": "Red Tomatoes",
+            "price": 90,
+            "unit": "1 kg",
+            "description": "Juicy salad and cooking tomatoes.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 90
+        },
+        {
+          "product": {
+            "id": "prod_potato",
+            "categoryId": "produce",
+            "name": "Local Potatoes",
+            "price": 80,
+            "unit": "1 kg",
+            "description": "Fresh highland potatoes.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 80
+        },
+        {
+          "product": {
+            "id": "prod_orange",
+            "categoryId": "produce",
+            "name": "Valencia Oranges",
+            "price": 160,
+            "unit": "1 kg",
+            "description": "Fresh citrus oranges rich in Vitamin C.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 160
+        }
+      ],
+      "subtotal": 450,
+      "deliveryFee": 50,
+      "total": 500,
+      "paymentMethod": "Telebirr",
+      "status": "out_for_delivery",
+      "createdAt": "2026-09-28T14:51:05.293Z",
+      "updatedAt": "2026-09-28T14:52:45.368Z"
+    },
+    {
+      "id": "MM-1003",
+      "userId": 7764454334,
+      "customerName": "abate",
+      "phone": "0960675516",
+      "deliveryAddress": "📍 GPS Pin: https://maps.google.com/?q=7.02651,38.46646",
+      "items": [
+        {
+          "product": {
+            "id": "prod_juice_mango",
+            "categoryId": "beverages",
+            "name": "Mango Nectar Juice",
+            "price": 95,
+            "unit": "1 Liter",
+            "description": "Rich tropical mango juice drink.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 95
+        },
+        {
+          "product": {
+            "id": "prod_rice_basmati",
+            "categoryId": "pantry",
+            "name": "Premium Basmati Rice",
+            "price": 260,
+            "unit": "1 kg",
+            "description": "Long grain aromatic basmati rice.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 260
+        }
+      ],
+      "subtotal": 355,
+      "deliveryFee": 50,
+      "total": 405,
+      "paymentMethod": "Telebirr",
+      "status": "payment_rejected",
+      "createdAt": "2026-09-28T13:05:52.375Z",
+      "updatedAt": "2026-09-28T13:14:16.938Z"
+    },
+    {
+      "id": "MM-1002",
+      "userId": 8011765639,
+      "customerName": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "+251799459263",
+      "deliveryAddress": "dorm",
+      "items": [
+        {
+          "product": {
+            "id": "prod_rice_basmati",
+            "categoryId": "pantry",
+            "name": "Premium Basmati Rice",
+            "price": 260,
+            "unit": "1 kg",
+            "description": "Long grain aromatic basmati rice.",
+            "inStock": true
+          },
+          "quantity": 3,
+          "itemTotal": 780
+        },
+        {
+          "product": {
+            "id": "prod_sugar",
+            "categoryId": "pantry",
+            "name": "White Cane Sugar",
+            "price": 140,
+            "unit": "1 kg",
+            "description": "Pure granulated cane sugar.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 140
+        },
+        {
+          "product": {
+            "id": "prod_oil_1l",
+            "categoryId": "pantry",
+            "name": "Sunflower Cooking Oil",
+            "price": 420,
+            "unit": "1 Liter",
+            "description": "Refined pure sunflower oil for healthy cooking.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 420
+        }
+      ],
+      "subtotal": 1340,
+      "deliveryFee": 50,
+      "total": 1390,
+      "paymentMethod": "Telebirr",
+      "status": "confirmed",
+      "createdAt": "2026-09-28T12:53:54.305Z",
+      "updatedAt": "2026-09-28T12:58:42.808Z"
+    },
+    {
+      "id": "MM-1001",
+      "userId": 6912151695,
+      "customerName": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "0960675516",
+      "deliveryAddress": "dor,",
+      "items": [
+        {
+          "product": {
+            "id": "prod_potato",
+            "categoryId": "produce",
+            "name": "Local Potatoes",
+            "price": 80,
+            "unit": "1 kg",
+            "description": "Fresh highland potatoes.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 80
+        },
+        {
+          "product": {
+            "id": "prod_biscuits",
+            "categoryId": "snacks",
+            "name": "Digestive Biscuits",
+            "price": 80,
+            "unit": "200g pack",
+            "description": "Crisp whole-wheat digestive biscuits.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 80
+        },
+        {
+          "product": {
+            "id": "prod_toilet_paper",
+            "categoryId": "household",
+            "name": "Soft Toilet Rolls",
+            "price": 190,
+            "unit": "4 rolls pack",
+            "description": "2-ply soft and absorbent bathroom rolls.",
+            "inStock": true
+          },
+          "quantity": 1,
+          "itemTotal": 190
+        }
+      ],
+      "subtotal": 350,
+      "deliveryFee": 50,
+      "total": 400,
+      "paymentMethod": "CBE Birr / Bank Transfer",
+      "status": "awaiting_payment",
+      "createdAt": "2026-09-28T12:51:47.606Z",
+      "updatedAt": "2026-09-28T12:51:47.612Z"
+    }
+  ],
+  "userProfiles": {
+    "6912151695": {
+      "name": "𝔶𝔢𝔠𝔥𝔞𝔩𝔢𝔰𝔢𝔴",
+      "phone": "0098776",
+      "address": "Ijhb",
+      "updatedAt": "2026-09-29T08:16:15.014Z",
+      "lang": "en"
+    },
+    "8011765639": {
+      "name": "𝖖𝖚𝖊𝖙𝖒𝖖𝖓✨",
+      "phone": "098765432",
+      "address": "yechale",
+      "updatedAt": "2026-09-29T08:46:22.248Z",
+      "usedPromos": [
+        "WELCOME"
+      ]
+    },
+    "7764454334": {
+      "name": "abate",
+      "phone": "251953364731",
+      "address": "Dorn 59",
+      "updatedAt": "2026-09-28T17:35:53.030Z"
+    },
+    "6115476457": {
+      "name": "Abyssinia",
+      "phone": "0961606976",
+      "address": "Gbi",
+      "updatedAt": "2026-09-28T19:05:53.790Z"
+    }
+  },
+  "promoCodes": [
+    {
+      "code": "HAMMER50",
+      "type": "fixed",
+      "value": 50,
+      "minOrder": 250,
+      "active": true,
+      "uses": 1,
+      "description": "50 ETB off orders over 250 ETB",
+      "oneTimePerUser": false
+    },
+    {
+      "code": "WELCOME10",
+      "type": "percent",
+      "value": 10,
+      "minOrder": 100,
+      "active": true,
+      "uses": 0,
+      "description": "10% off your entire order"
+    },
+    {
+      "code": "HAWASSA",
+      "type": "fixed",
+      "value": 30,
+      "minOrder": 150,
+      "active": true,
+      "uses": 0,
+      "description": "30 ETB local delivery discount"
+    },
+    {
+      "code": "WELCOME",
+      "type": "fixed",
+      "value": 50,
+      "minOrder": 100,
+      "oneTimePerUser": true,
+      "active": true,
+      "uses": 1,
+      "description": "Welcome Offer: 50 ETB off your first order (Single-use only)"
+    },
+    {
+      "code": "SPECIAL1000",
+      "type": "fixed",
+      "value": 100,
+      "minOrder": 1000,
+      "oneTimePerUser": false,
+      "active": true,
+      "uses": 0,
+      "description": "Special Offer: 100 ETB discount when you buy more than 1,000 ETB"
+    }
+  ]
+}
